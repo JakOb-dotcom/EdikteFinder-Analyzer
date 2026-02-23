@@ -1,0 +1,43 @@
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.whl
+pip-wheel-metadata/
+
+# ── Virtual environments ──────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+.env/
+ENV/
+
+# ── Local data (never commit) ─────────────────────────────────────────────────
+data/downloads/
+data/jsons/edikte.json
+data/jsons/analyses.json
+
+# settings.json contains API keys – keep it out of the repository!
+data/jsons/settings.json
+
+# ── IDE ───────────────────────────────────────────────────────────────────────
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ── Playwright ────────────────────────────────────────────────────────────────
+playwright-report/
+test-results/
+
+# ── Logs ──────────────────────────────────────────────────────────────────────
+*.log
+logs/
